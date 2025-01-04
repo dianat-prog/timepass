@@ -67,7 +67,7 @@ Adjunto unas imagenes para poder entenderlo mejor:
 - Que no se te olvide `express.Router()` para generar las rutas
   
   res.locals.mensaje = `Aún no es la hora, espera hasta las 14:00 para entrar`;
-  return res.redirect('/?mensaje=' + encodeURIComponent(res.locals.mensaje));
+  return res.redirect('/?mensaje=' + enccodeURIComponent(res.locals.mensaje));
 
 ## Y por último...
 Está creado `npm start` con '--watch app.js' para poder inicializar el servidor (una vez lo tengas creado en `app.js`)
